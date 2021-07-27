@@ -11,3 +11,5 @@
 - Use `driver.get_` put the path into it and use that tag for our use.
 
 #### NAVIGATION COMMANDS
+- Use `driver.back()` to navigate to previous page.
+- Use `driver.forward()` to navigate to front page.
