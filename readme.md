@@ -13,3 +13,8 @@
 #### NAVIGATION COMMANDS
 - Use `driver.back()` to navigate to previous page.
 - Use `driver.forward()` to navigate to front page.
+
+#### CONDITIONAL COMMANDS
+- Use `driver.is_enabled` to ckeck enable or not and can be used with any web element.
+- Use `driver.is_displayed` to ckeck it is displayed or not and can be used with any web element.
+- Use `driver.is_selected` to ckeck selected or not and it is used with `Checkbox` and `Radio Buttons` only.
