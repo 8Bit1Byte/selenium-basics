@@ -7,7 +7,7 @@
 - Use `driver.page_source` function to close the driver.
 - Use `driver.quit()` to quit the browser.
 
-#### ACCESS HTML OBJECT USING THEIR ATTRIBUTE AND PATHS
+#### ACCESS HTML OBJECT USING THEIR ATTRIBUTE AND PATHS FROM HTML LOGIC
 - Use `driver.get_` put the path into it and use that tag for our use.
 
 #### NAVIGATION COMMANDS
