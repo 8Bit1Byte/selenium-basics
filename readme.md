@@ -29,4 +29,10 @@
     - If the element get loaded before that time then excution flow will start.
     - _Implicit Wait_ is use only when we want web-element to be load.
     - This is based to time. Exact or less time to wait but explicit is based on condition.
-- An explicit wait is a wait for a certain condition to occur before proceeding further in the code
+- An explicit wait is a wait for a certain condition to occur before proceeding further in the code.
+
+#### INPUT BOXS
+- Mainly class is same for various input box as their look is same apporx.
+- To find multiple Input Box or Web-Element use `driver.elements()`.
+- Using `element.send_keys()` we can fill the value into text-box.
+- To ckeck the status of input box we can use Conditional Commands
