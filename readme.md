@@ -43,3 +43,11 @@
 - By `driver.switch_to_alert().accept()/ .dismiss()` can be used to accept and dismiss it.
 - To switch to frame we can use `driver.switch_to.frame` pass name or id as param.
 - To switch between frames we have to go back to default frame using `driver.switch_to.default_contant()`
+
+#### BROWSER WINDOW SWITCHING COMMANDS
+- Every browser command have some id, some hex kind code which is unique map to each window.
+- Unique handle value
+- `driver.current_window_handle` returns current window handle.
+- `driver.window_handles` returns all open windows handle.
+- To switch between windows we can use `driver.switch_to.window(handle)`
+- To quit a tab use `driver.close()` and to close browser use `driver.quit()`
