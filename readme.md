@@ -36,3 +36,10 @@
 - To find multiple Input Box or Web-Element use `driver.elements()`.
 - Using `element.send_keys()` we can fill the value into text-box.
 - To ckeck the status of input box we can use Conditional Commands
+
+#### ALERT AND FRAMES
+- Just we have to switch between main window and alert window to access that window.
+- Using `driver.switch_to_alert()` function will switch to alert window.
+- By `driver.switch_to_alert().accept()/ .dismiss()` can be used to accept and dismiss it.
+- To switch to frame we can use `driver.switch_to.frame` pass name or id as param.
+- To switch between frames we have to go back to default frame using `driver.switch_to.default_contant()`
